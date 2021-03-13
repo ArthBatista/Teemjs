@@ -1,0 +1,33 @@
+/*rodapé*/
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.rodape_final{
+	margin-top: 20px;
+	background-color: #1C1C1C;
+	color: #fff;
+	display: flex;
+	justify-content: space-around;
+	padding: 28px;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+.icones-sociais li
+{
+    display: inline-block;
+    float: right;
+    width: 40px;
+    margin: 10px;
+    height: 40px;
+}
+.art-rod-2{
+	position: absolute;
+}
+.coisa-center{
+	text-align: center;
+	margin: 15px;
+	color:#696969;
+}

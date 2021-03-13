@@ -1,0 +1,45 @@
+/*jogo da velha*/
+body {
+	background-color: #AAA;
+	background-attachment: fixed;
+	text-align: center;
+	font-family: Comic Sans;
+	font-style:italic;
+	font-size: 1.3em;
+    background-image: url("background/hello.jpg");
+
+}
+
+h1{
+    position: absolute;
+	color:#ffffff;
+	left: 690px;
+}
+
+input {
+	background-color:#fff;
+	font-size: 6vw;
+	width: 10vw;
+	height:10vw;
+	margin: 0;
+	color: #ffff;
+    border-radius: 25px;
+
+}
+
+#jogador {
+	display: inline;
+}
+
+#reiniciar {
+	position: absolute;
+	margin-top: 2%;
+	width: 12vw;
+	height:6vw;
+	font-size: 1em;
+	color: black;
+    border-radius: 25px;
+	font-family: Comic Sans;
+	font-style:italic;
+	left: 490px;
+}

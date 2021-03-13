@@ -1,0 +1,40 @@
+/*resert*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100vh;
+}
+
+body {
+	background: #dcdcdc;
+	font-family: 'Raleway', sans-serif;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+ion-icon {
+	font-size: 20px;
+	color: #efefef;
+}
+
+button {
+	background: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}

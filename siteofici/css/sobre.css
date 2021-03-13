@@ -1,0 +1,199 @@
+/*sobre*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Josefin+Slab:ital,wght@1.100&family=Mulish:ital,wght@1.500&display=swap');
+
+@import url("https://fonts.googleapis.com/css2? family = Baloo + 2: wght @ 500 & family = Josefin + Slab: ital, wght @ 1.100 & family = Mulish: ital, wght @ 1.500 & display = swap"); */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  #000000;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    border: none;
+}
+
+.img-wrapper{
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+     background-color: black;
+
+}
+
+.img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    animation: aproximet 30s ;
+
+}
+
+@keyframes aproximet {
+    0%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.banner{
+    position: absolute;
+    font-size: 1.6rem;
+    top: 25%;
+    left: 40%;
+    top: 15%;
+}
+
+.banner h1{
+   color: #ffffff;
+   font-size: 4.5rem; 
+   font-family: "Baloo 2", serif;
+   text-shadow: .2rem .2rem 2px rgba(0, 0, 0, .4);
+   line-height: 1.5rem;
+   margin-bottom: 10rem;
+   animation: movimento 4s;
+}
+
+@keyframes movimento {
+    0%{
+        transform: translateY(-11rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.text-me {
+    position: absolute;
+    top: 43%;
+    left: 3%;
+    font-size: 1.4rem;
+    font-family: "Josefin Slab", serif;
+    color: rgb(255, 255, 255);
+    text-shadow: .0rem .1rem rgba(0, 0, 0, .4); /*Sombra de fundo*/
+    margin-bottom: 2.8rem;
+    margin-right: 0rem;
+}
+
+.text-n{
+    position: absolute;
+    top: 43%;
+    right: 2%;
+    font-size: 1.4rem;
+    font-family: "Josefin Slab", serif;
+    color: rgb(255, 255, 255);
+}
+
+
+@keyframes movimente {
+    0%{
+        transform: translateY(11rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
+#menu{
+  width:  35px;
+  height: 30px;
+  margin: 30px 0 20px 20px;
+  cursor: pointer;
+}
+
+.bar{
+    height: 5px;
+    width: 100%;
+    background-color: #808080;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#bar1{
+    transform: translateY(-4px);
+}
+
+#bar3{
+     transform: translateY(4px);
+}
+
+.nav li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    font-weight: bold;
+}
+
+.nav li{
+    list-style: none;
+    padding: 16px 0;
+    
+}
+
+.nav
+{
+    padding: 16;
+    margin: 0 20px;
+    transition: 0.3s ease;
+    display: none;
+}
+
+.menu-bg, #menu-bar{
+    top:0;
+    left: 0;
+    position: absolute;
+}
+
+.menu-bg{
+    z-index:1;
+     width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+#menu-bar{
+    z-index:2;  
+}
+
+.change-bg
+{
+    width: 550px;
+    height: 540px;
+    transform: translate(-60%,-30%)
+}
+
+.change .bar{
+    background-color: #ffffff;
+}
+
+.change #bar1{
+    transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar3{
+   transform: translateY(-6px) rotate(45deg);  
+}
+
+.change #bar2{
+    opacity: 10;
+}
+
+.change{
+    display: block;
+
+} 
+ 
